@@ -1,0 +1,39 @@
+.intro-06 h1{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 31px;
+    padding: 30px 10% 0 10%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+
+.intro-06 h1>span{
+    padding: 10px;
+}
+.intro-06-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.intro-06-carousel-item-01{
+    background-image:url(../images/wedding/main_background_sydney-02.jpg);
+}
+
+.intro-06-carousel-item-02{
+    background-image:url(../images/wedding/main_background_toronto-02.jpg);
+}
+
+.intro-06-carousel-item-03{
+    background-image:url(../images/wedding/main_background_story-02.jpg);
+}
+
+.poster-img{
+    background-image: url('http://www.placehold.it/1980x1320.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
