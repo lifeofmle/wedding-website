@@ -859,7 +859,7 @@ font-family: 'Open Sans', sans-serif; font-weight:300;
 	padding: 20px;
 }
 .news-block-inner{
-	padding: 50px;
+	padding: 20px;
 }
 .news-block-inner h6{
     font-size: 18px;
@@ -1283,11 +1283,17 @@ font-family: 'Raleway', sans-serif; font-weight:300;
 }
 
 .testimonial{
-	background: url('../images/wedding/footer_background.jpg') 50% 0% no-repeat fixed;
+	background: url('../images/wedding/footer_background.jpg') 0% 0% no-repeat fixed;
 	background-size: cover;
 }
 
 
+.sydney{
+	background-color: #FFC9C6;
+}
 
+.toronto{
+	background-color: #C3FFDC;
+}
 
 

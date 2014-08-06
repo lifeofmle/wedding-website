@@ -173,45 +173,6 @@ $(function ($) {
         autoHeight: true
       });
 
-
-    $("#intro-02-carousel").owlCarousel({
-        navigation : true,
-        pagination: false,
-        responsive: true,
-        items: 1,
-        touchDrag: true,
-        navigationText: false,
-        mouseDrag: true,
-        itemsDesktop: [3000,1],
-        itemsDesktopSmall: [1440,1],
-        itemsTablet:[1024,1],
-        itemsTabletSmall: [600,1],
-        itemsMobile: [360,1],
-        autoPlay: true,
-        autoHeight: true,
-        slideSpeed: 2200,
-        paginationSpeed: 1200,
-        transitionStyle : "fadeUp"
-      });
-
-
-    $("#intro-03-carousel").owlCarousel({
-        navigation : true,
-        pagination: false,
-        responsive: true,
-        items: 1,
-        touchDrag: true,
-        navigationText: false,
-        mouseDrag: true,
-        itemsDesktop: [3000,1],
-        itemsDesktopSmall: [1440,1],
-        itemsTablet:[1024,1],
-        itemsTabletSmall: [600,1],
-        itemsMobile: [360,1],
-        autoPlay: true,
-        autoHeight: true
-      });
-
     $("#intro-06-carousel").owlCarousel({
         navigation : true,
         pagination: false,
@@ -227,7 +188,8 @@ $(function ($) {
         itemsMobile: [360,1],
         autoPlay: true,
         autoHeight: true,
-        transitionStyle : "goDown"
+        transitionStyle : "goDown",
+        loop: true
       });
       
     $("#about-carousel").owlCarousel({
@@ -262,7 +224,22 @@ $(function ($) {
         autoPlay: true
       });
 
-    $("#thumb-carousel").owlCarousel({
+    $("#thumb-sydney-carousel").owlCarousel({
+        navigation : false,
+        pagination: false,
+        responsive: true,
+        items: 2,
+        touchDrag: true,
+        mouseDrag: true,
+        itemsDesktop: [3000,8],
+        itemsDesktopSmall: [1440,2],
+        itemsTablet:[800,2],
+        itemsTabletSmall: [600,2],
+        itemsMobile: [360,1],
+        autoPlay: true
+      });
+
+    $("#thumb-toronto-carousel").owlCarousel({
         navigation : false,
         pagination: false,
         responsive: true,
@@ -280,12 +257,12 @@ $(function ($) {
 
     $("#service-list-carousel").owlCarousel({
         navigation : false,
-        pagination: true,
+        pagination: false,
         responsive: true,
-        items: 2,
+        items: 4,
         touchDrag: true,
         mouseDrag: true,
-        itemsDesktop: [3000,3],
+        itemsDesktop: [3500,4],
         itemsDesktopSmall: [1440,2],
         itemsTablet:[800,2],
         itemsTabletSmall: [600,1],
