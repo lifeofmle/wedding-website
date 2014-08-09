@@ -228,31 +228,39 @@ $(function ($) {
         navigation : false,
         pagination: false,
         responsive: true,
-        items: 2,
         touchDrag: true,
         mouseDrag: true,
         itemsDesktop: [3000,8],
-        itemsDesktopSmall: [1440,2],
-        itemsTablet:[800,2],
-        itemsTabletSmall: [600,2],
-        itemsMobile: [360,1],
-        autoPlay: true
-      });
+        itemsDesktopSmall: [1440,4],
+        itemsTablet:[800,4],
+        itemsTabletSmall: [600,3],
+        itemsMobile: [360,2],
+        itemsScaleUp: false,
+        autoPlay: true,
+        autoHeight : true,
+        stopOnHover: true,
+        transitionStyle:"fade"
+    });
 
     $("#thumb-toronto-carousel").owlCarousel({
         navigation : false,
         pagination: false,
         responsive: true,
-        items: 2,
         touchDrag: true,
         mouseDrag: true,
         itemsDesktop: [3000,8],
-        itemsDesktopSmall: [1440,2],
-        itemsTablet:[800,2],
-        itemsTabletSmall: [600,2],
-        itemsMobile: [360,1],
-        autoPlay: true
+        itemsDesktopSmall: [1440,4],
+        itemsTablet:[800,4],
+        itemsTabletSmall: [600,3],
+        itemsMobile: [360,2],
+        itemsScaleUp: false,
+        autoPlay: true,
+        autoHeight : true,
+        stopOnHover: true,
+        transitionStyle:"fade"
       });
+
+
 
 
     $("#service-list-carousel").owlCarousel({
@@ -343,7 +351,6 @@ $(function ($) {
         autoPlay: false,
         autoHeight: true,
       });
-
 
     //Venobox Responsive Lightbox
     $('.venobox, .image-lightbox-link').venobox({

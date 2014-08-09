@@ -570,6 +570,7 @@ h1,h2,h3,h4,h5,h6{
     border:solid 1px;
 }
 .thumb-carousel-wrap{
+
 }
 .thumb-title{
 	position: absolute;
@@ -846,7 +847,7 @@ font-family: 'Open Sans', sans-serif; font-weight:300;
 
 }
 .news-bg{
-	background-image: url('http://www.placehold.it/1980x2800.jpg');
+	background-image: url('../images/wedding/dance_bw_background.jpg');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: cover;
@@ -867,7 +868,7 @@ font-family: 'Open Sans', sans-serif; font-weight:300;
     margin-top: 0;
     margin-bottom: 0;
 	font-family: 'Open Sans',sans-serif;
-    font-weight: 300;
+    font-weight: 700;
 }
 .news-block-inner h3{
 	font-family: 'Raleway',sans-serif;
@@ -1278,22 +1279,32 @@ font-family: 'Raleway', sans-serif; font-weight:300;
 }
 
 .promotional{
-	background: url('../images/wedding/video_background.jpg') 0% 50% no-repeat fixed;
+	background: url('../images/wedding/video_background.jpg') 0% 80% no-repeat fixed;
 	background-size: cover;
 }
 
 .testimonial{
-	background: url('../images/wedding/footer_background.jpg') 0% 0% no-repeat fixed;
+	background: url('../images/wedding/footer_background-3.jpg') 0% 20% no-repeat fixed;
 	background-size: cover;
 }
 
 
 .sydney{
-	background-color: #FFC9C6;
+	/*background-color: #C3FFDC;*/
 }
 
 .toronto{
-	background-color: #C3FFDC;
+	
+	/*background-color: #FFC9C6;*/
 }
 
+.owl-carousel .owl-item img {
+    height:auto;
+    width:100%;
+    display: block;
+}
+
+.owl-carousel .item {
+    margin:0px;
+}
 
