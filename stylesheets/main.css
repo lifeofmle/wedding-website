@@ -1284,18 +1284,12 @@ font-family: 'Raleway', sans-serif; font-weight:300;
 }
 
 .testimonial{
-	background: url('../images/wedding/footer_background-a.jpg') 0% 00% no-repeat fixed;
+	background: url('../images/wedding/footer_background-b.jpg') 0% 0% no-repeat fixed;
 	background-size: cover;
 }
 
-
-.sydney{
-	/*background-color: #C3FFDC;*/
-}
-
-.toronto{
-	
-	/*background-color: #FFC9C6;*/
+.white-text {
+	color: #FFFFFF;
 }
 
 .owl-carousel .owl-item img {
